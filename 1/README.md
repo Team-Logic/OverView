@@ -68,7 +68,7 @@ GUI `Graphical User Interface - 그래픽 사용자 인터페이스` 로 합친 
 3. 로그인 진행
 4. Organizations - Logic 참여
 5. 파이썬 Team Repl 생성
-6. 간단한 파이썬 코드 작성후 실행
+6. 간단한 파이썬 코드 <span class="tooltip" title="박병욱 아이디어">(updown 게임 복붙)</span> 작성후 실행
 
 ## 제출할 것
 replit 계정 생성 여부<br>
