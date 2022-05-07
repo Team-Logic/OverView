@@ -71,7 +71,26 @@ GUI `Graphical User Interface - 그래픽 사용자 인터페이스` 로 합친 
 6. 간단한 파이썬 코드 <span class="tooltip" title="박병욱 아이디어">`(updown 게임 복붙)`</span> 작성후 실행
 
 ### 복사할 코드 (updown 게임)
-<script src="https://gist.github.com/umjiwan/6d5de66f7e71ffb30a53289f94f1bf12.js"></script>
+```python3
+import random
+
+num = random.randint(1, 100)
+input_num = 0
+count = 0
+
+while input_num != num:
+    input_num = int(input("수 : "))
+
+    if input_num > num:
+        print("down!")
+    elif input_num < num:
+        print("up!")
+
+    count += 1
+
+print(f"{count}번 만에 맞추셨습니다!")
+print(f"정답은 {num}")
+```
 
 ## 제출할 것
 replit 계정 생성 여부<br>
