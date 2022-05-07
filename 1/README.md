@@ -70,7 +70,7 @@ GUI `Graphical User Interface - 그래픽 사용자 인터페이스` 로 합친 
 5. 파이썬 Team Repl 생성
 6. 간단한 파이썬 코드 <span class="tooltip" title="박병욱 아이디어">`(updown 게임 복붙)`</span> 작성후 실행
 
-### 복사할 코드 (updown 게임)
+## 복사할 코드 (updown 게임)
 ```python3
 import random
 
