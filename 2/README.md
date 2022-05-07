@@ -23,4 +23,9 @@
 ()
 
 ## 응용 (여긴 내가 만들 예정)
-()
+```python3
+a = int(input())
+b = int(input())
+
+print(a + b)
+```
