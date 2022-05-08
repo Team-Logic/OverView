@@ -13,7 +13,7 @@
 그럼 파이썬을 시작해 보자! 
 
 ### 출력
-출력은 [입력받은 값](https://github.com/Team-Logic/OverView/edit/main/2/README.md#%EC%9E%85%EB%A0%A5) 또는 사용자가 임의로 지정한 값을 __출력__ 한다
+출력은 [입력받은 값](https://github.com/Team-Logic/OverView/tree/main/2#%EC%9E%85%EB%A0%A5) 또는 사용자가 임의로 지정한 값을 __출력__ 한다
 ```py3
 print("hello, world!")
 ```
