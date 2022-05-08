@@ -86,17 +86,13 @@ type(b) # str
 a = 3
 b = 2
 
-result = a + b
-print(result) # result = 5
+print(a + b) # 5
 
-result = a - b
-print(result) # result = 1
+print(a - b) # 1
 
-result = a * b
-print(result) # result = 6
+print(a * b) # 6
 
-result = a / b
-print(result) # result = 1.5
+print(a / b) # 1.5
 ```
 
 코드를 보면 알 수 있듯이 차례대로 더하기, 빼기, 곱하기, 나누기이다 이러한 기호들을 __연산자__ 라고 한다  
