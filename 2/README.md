@@ -80,6 +80,20 @@ type(a) # int
 type(b) # str
 ```
 
+#### 타입변환
+조건이 충족된다면 타입을 변경할 수 있다. (말로 설명할 예정)
+
+```python3
+a = 1
+type(a) # int
+type(str(a)) # str
+
+b = "1"
+type(b) # str
+type(int(b)) # int
+```
+
+
 ### 사칙연산
 
 ```py3
