@@ -4,7 +4,7 @@
 ## 파이썬의 역사와 특징
 
 `Guido van Rossum(귀도 판 로섬)`은 1980년대 후반에 크리스마스 주로 인하여 연구실 문이 닫혀있어<br>
-심심한 김에 프로그래밍 언어를 만들었는데 그 언어가 바로 [Python](python.org)이다.<br>
+심심한 김에 프로그래밍 언어를 만들었는데 그 언어가 바로 [Python](https://python.org)이다.<br>
 
 파이썬(Python) 이라는 이름은 그가 즐겨보던 영국 코미디 드라마 `Monty Python's Flying Circus` 에서 유래되었다.<br>
 <br>
