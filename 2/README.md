@@ -209,7 +209,7 @@ print(f"{a} 를 입력하셨습니다")
 
 풀어 설명하자면 우리가 int(정수) 타입으로 input 값을 받고 싶어 정수 1을 입력하면   
 위의 변수로 선언한 `a` 엔 문자(str)인 "1" 이 입력된다.  
-`int` 타입으로 값이 받고 싶다면 위에서 설명한 [타입변환](https://github.com/Team-Logic/OverView/edit/main/2/README.md#%ED%83%80%EC%9E%85%EB%B3%80%ED%99%98)을 사용하면 된다.<br>
+`int` 타입으로 값이 받고 싶다면 위에서 설명한 [타입변환](https://github.com/Team-Logic/OverView/main/2/README.md#%ED%83%80%EC%9E%85%EB%B3%80%ED%99%98)을 사용하면 된다.<br>
 ```python3
 a = int(input("숫자만 입력하세요 : "))
 type(a) # int
