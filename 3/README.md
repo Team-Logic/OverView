@@ -135,6 +135,28 @@ print(1 < 2) # True (1보다 2가 크다)
 print(2 > 1) # True (2보다 1이 작다)
 print(1 <= 2) # True (1보다 2가 크거나 같다)
 print(2 >= 1) # True (2보다 1이 작거나 같다)
+
+print(1 == 2) # False (1과 2는 같다)
+print(1 != 1) # False (1과 1은 다르다)
+print(1 > 2) # False (1보다 2가 작다)
+print(2 < 1) # False (2보다 1이 크다)
+print(1 >= 2) # False (1보다 2가 작거나 같다)
+print(2 <= 1) # False (2보다 1이 크거나 같다)
 ```
 
-물론 더 있지만 우리가 배울건 이정도로 충분하다.
+더 있지만 우리가 배울건 이정도로 충분하다.<br>
+문자열도 가능하다.
+
+```py
+print("hello" == "hello") # True
+print("hello" != "bye") # True
+
+print("hello" != "hello") # False
+print("hello" == "bye") # False
+```
+
+물론 문자열도 정수처럼 크다 작다 비교 연산을 할 수 있지만 우리가 배우기엔 좀 어려운 개념이기 때문에 제외하였다.<br>
+bool도 너무 예측 가능하여 제외하였다.<br>
+
+## 조건문 
+코딩이 재밌어지는 첫번째 요소인 (주관적) 조건문이다.<br>
