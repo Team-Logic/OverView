@@ -118,7 +118,9 @@ print(bool("")) # False
 print(bool("False")) # True
 print(bool("fjoqfoij")) # True
 ```
+이렇게 `bool` 타입에 대한 설명을 마치겠다.<br>
 
+## 비교 연산자
 
 
 
