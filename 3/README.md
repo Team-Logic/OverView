@@ -217,3 +217,34 @@ else:
     print("당신은 외부인 입니다.")
 ```
 
+정수로 이렇게 응용이 가능하다.<br>
+
+```py
+money = int(input())
+
+if money >= 10000:
+    print("택시를 타고 가시오.")
+elif money >= 5000:
+    print("버스를 타고 가시오.")
+elif money >= 2500:
+    print("지하철을 타고 가시오.")
+else:
+    print("걸어가시오")
+```
+
+위에서 말한 것 처럼 bool 타입이 아닌것을 넣으면 bool 타입으로 자동으로 변환한다.<br>
+
+```py
+if 1:
+    print("출력 됨")
+if 0:
+    print("출력 안됨 (절대로)")
+
+if "hi":
+    print("출력됨 (빈 문자열이 아니면 무조건 True)")
+if "":
+    print("출력 안됨 (절대로)")
+```
+
+## 반복문 while
+
