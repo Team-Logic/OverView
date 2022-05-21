@@ -308,7 +308,7 @@ we 라는 변수값은 변하지 않음으로 break 를 넣지 않으면 무한�
 a = input("Say yes or Yes" : )
 
 if a == "Yes" or "yes"
-    print(f"you say {a}!!!")
+    print(f"you said {a}!!!")
 ```
 조건문에 또는이라는 뜻을 가진 `or`을 사용하면 or 앞뒤에 있는 값으로 비교연산자가 비교를 할 수 있다.
 ## 과제
