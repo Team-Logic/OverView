@@ -164,15 +164,61 @@ bool도 너무 예측 가능하여 제외하였다.<br>
 
 ### And
 `And` 는 두 bool 값이 모두 참일때 참을 반환한다. 표를 한번 봐보자<br>
+
 | A | B | Result |
 | ---- | ---- | ---- |
 | True | True | True |
 | True | False| False|
 | False| False| False|
-| False| True | False| 
+| False| True | False|
 
+A와 B 둘다 True일때만 True의 값을 반환하는걸 알 수 있다.<br>
+파이썬에서는 이렇게 표현한다.<br>
 
+```py
+print(True and True) # True
+print(True and False) # False
+print(False and False) # False
+print(False and True) # False
+```
 
+### Or
+`Or` 은 두 bool 값 중 하나 이상이 참일때 참을 반환한다.<br>
+
+| A | B | Result |
+| ---- | ---- | ---- |
+| True | True | True |
+| True | False| True |
+| False| False| False|
+| False| True | True |
+
+```py
+print(True and True) # True
+print(True and False) # True
+print(False and False) # False
+print(False and True) # True
+```
+
+### Not
+`Not`은 bool 값을 부정한다.<br>
+
+| bool | Result |
+| ---- | ---- |
+| True | False|
+| False| True |
+
+```py
+print(not True) # False
+print(not False) # True
+```
+
+### 비교 연산자와의 응용
+
+```py
+a = input("약관의 동의 하십니까? : ")
+
+print(not (a=="No" or a=="no" or a=="아니요" or a=="아뇨")) # a가 Yes라면 True No라면 False 를 출력 
+```
 
 ## 조건문
 코딩이 재밌어지는 첫번째 요소인 조건문이다.<br>
