@@ -240,7 +240,7 @@ if #bool:
     #bool 이 True 라면 실행될 코드
 ```
 이러한 형태이다.<br>
-진행자의 설명이 이를 더 자세하게 설명 해 줄 것이다.<br>
+if 뒤엔 bool 값(True, False)만이 아닌 bool 값을 반환하는 비교 연산자를 넣을 수 있다.<br>
 `if`는 True와 False의 값만 받는다. 만약 True와 False 즉 bool타입이 아닌 값을 받았을때는 자동으로 bool타입으로 변환한다.<br>
 
 비교연산자 또한 bool을 반환하기 때문에 이런게 가능하다.<br>
