@@ -293,9 +293,9 @@ while a < 10:
 이렇게 볼 수 있다.  
 조건문 부분은 앞서 설명한 비교 연산자를 이용한 것이므로 당연하게 문자도 집어넣을 수 있다.  
 ```py3
-we = logic
+we = "logic"
 
-while we = "logic":
+while we == "logic":
     print("we are logic")
     break
 ``` 
