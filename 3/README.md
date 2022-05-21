@@ -159,7 +159,20 @@ print("hello" == "bye") # False
 bool도 너무 예측 가능하여 제외하였다.<br>
 
 ## 논리 연산자
-..
+논리 연산자는 비교연산자 처럼 bool 값을 반환하는 연산자 이다.<br>
+논리 연산자의 대표 종류로는 `And`, `Or`, `Not` 있다 각각의 사용법을 알아보자<br>
+
+### And
+`And` 는 두 bool 값이 모두 참일때 참을 반환한다. 표를 한번 봐보자<br>
+| A | B | Result |
+| ---- | ---- | ---- |
+| True | True | True |
+| True | False| False|
+| False| False| False|
+| False| True | False| 
+
+
+
 
 ## 조건문
 코딩이 재밌어지는 첫번째 요소인 조건문이다.<br>
