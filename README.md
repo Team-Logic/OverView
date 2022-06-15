@@ -20,7 +20,7 @@
 
 ### 배우기
 2. [프로그래밍 언어의 역사와 파이썬의 역사 + 파이썬의 간단한 문법에 대하여 알 수 있다.](https://github.com/Team-Logic/OverView/blob/main/2/README.md)✅(2022-05-14)<br>
-3. [파이썬의 간단한 문법에 대하여 알 수 있다(2)](https://github.com/Team-Logic/OverView/blob/main/3/README.md)<br>
+3. [파이썬의 간단한 문법에 대하여 알 수 있다(2)](https://github.com/Team-Logic/OverView/blob/main/3/README.md)✅<br>
 4. 파이썬의 간단한 문법에 대하여 알 수 있다(3)<br>
 5. 파이썬의 간단한 문법에 대하여 알 수 있다(4) (스킵가능)<br> 
 6. 파이썬의 간단한 문법에 대하여 알 수 있다(5) (스킵가능)<br> 
